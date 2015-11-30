@@ -1,0 +1,9 @@
+.idea/
+node_modules
+bower_components
+dist/static
+.cache
+.idea_modules/
+.manifest.json
+*.iml
+
