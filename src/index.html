@@ -1,0 +1,28 @@
+<!doctype html>
+<html moznomarginboxes>
+<head>
+    <base href="/">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>TinyMce - Image</title>
+    <link href="/css/styles.min.css" rel="stylesheet" type='text/css' charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic&subset=latin,latin-ext,cyrillic-ext,cyrillic'
+          rel='stylesheet' type='text/css'>
+</head>
+<body data-ng-controller="appController as ctrl">
+<div class="row">
+    <h1 class="text-center -mg-t-lgxx">Angular Collapse</h1>
+    <div class="small-12 columns text-center">
+        <button class="-mg-t-lgxx" data-ng-click="ctrl.collapse = !ctrl.collapse">Collapse</button>
+        <div data-animate-collapse="ctrl.collapse">
+            <div class="panel -mg-t-lgxx">
+                Collapsing content
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" src="/js/lib.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/angular-collapse/js/angular-collapse.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="/js/app.js" charset="utf-8"></script>
+</body>
+</html>
