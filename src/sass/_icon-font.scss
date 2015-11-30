@@ -1,0 +1,412 @@
+
+@font-face {
+    font-family: "icon-font";
+    src: url('/fonts/icon-font-ecd656e696.eot');
+    src: url('/fonts/icon-font-ecd656e696.eot?#iefix') format('eot'),
+    url('/fonts/icon-font-b4e8792f12.woff') format('woff'),
+    url('/fonts/icon-font-c4ba76c63a.ttf') format('truetype'),
+    url('/fonts/icon-font.svg#icon-font') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@mixin icon-font {
+    display: inline-block;
+    font-family: "icon-font" !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@function icon-char($filename) {
+    $char: "";
+
+    @if $filename == arrow-drop-down {
+        $char: "\ea01";
+    }
+
+    @if $filename == arrow-drop-up {
+        $char: "\ea02";
+    }
+
+    @if $filename == arrow-left {
+        $char: "\ea03";
+    }
+
+    @if $filename == arrow-right {
+        $char: "\ea04";
+    }
+
+    @if $filename == arrow-small-down {
+        $char: "\ea05";
+    }
+
+    @if $filename == arrow-small-up {
+        $char: "\ea06";
+    }
+
+    @if $filename == browser_services {
+        $char: "\ea07";
+    }
+
+    @if $filename == cancel {
+        $char: "\ea08";
+    }
+
+    @if $filename == cart {
+        $char: "\ea09";
+    }
+
+    @if $filename == check {
+        $char: "\ea0a";
+    }
+
+    @if $filename == check_box {
+        $char: "\ea0b";
+    }
+
+    @if $filename == close {
+        $char: "\ea0c";
+    }
+
+    @if $filename == cogwheel {
+        $char: "\ea0d";
+    }
+
+    @if $filename == colorize {
+        $char: "\ea0e";
+    }
+
+    @if $filename == domains {
+        $char: "\ea0f";
+    }
+
+    @if $filename == edit {
+        $char: "\ea10";
+    }
+
+    @if $filename == grain {
+        $char: "\ea11";
+    }
+
+    @if $filename == head {
+        $char: "\ea12";
+    }
+
+    @if $filename == heart {
+        $char: "\ea13";
+    }
+
+    @if $filename == help {
+        $char: "\ea14";
+    }
+
+    @if $filename == image {
+        $char: "\ea15";
+    }
+
+    @if $filename == info-outline {
+        $char: "\ea16";
+    }
+
+    @if $filename == info {
+        $char: "\ea17";
+    }
+
+    @if $filename == layout {
+        $char: "\ea18";
+    }
+
+    @if $filename == lock {
+        $char: "\ea19";
+    }
+
+    @if $filename == mail {
+        $char: "\ea1a";
+    }
+
+    @if $filename == menu {
+        $char: "\ea1b";
+    }
+
+    @if $filename == minus {
+        $char: "\ea1c";
+    }
+
+    @if $filename == monitor {
+        $char: "\ea1d";
+    }
+
+    @if $filename == plus {
+        $char: "\ea1e";
+    }
+
+    @if $filename == power-plug {
+        $char: "\ea1f";
+    }
+
+    @if $filename == print {
+        $char: "\ea20";
+    }
+
+    @if $filename == pro {
+        $char: "\ea21";
+    }
+
+    @if $filename == redeem {
+        $char: "\ea22";
+    }
+
+    @if $filename == reload {
+        $char: "\ea23";
+    }
+
+    @if $filename == search {
+        $char: "\ea24";
+    }
+
+    @if $filename == settings {
+        $char: "\ea25";
+    }
+
+    @if $filename == shopping-cart {
+        $char: "\ea26";
+    }
+
+    @if $filename == stack {
+        $char: "\ea27";
+    }
+
+    @if $filename == store {
+        $char: "\ea28";
+    }
+
+    @if $filename == trash {
+        $char: "\ea29";
+    }
+
+    @if $filename == undo {
+        $char: "\ea2a";
+    }
+
+    @if $filename == unlock {
+        $char: "\ea2b";
+    }
+
+    @if $filename == visibility-off {
+        $char: "\ea2c";
+    }
+
+    @if $filename == visibility {
+        $char: "\ea2d";
+    }
+
+    @if $filename == wallet {
+        $char: "\ea2e";
+    }
+
+    @if $filename == warning {
+        $char: "\ea2f";
+    }
+
+    @return $char;
+}
+
+[class^="-icon-font"], [class*="-icon-font"] {
+    @include icon-font;
+}
+
+
+.-icon-font-arrow-drop-down:before {
+    content: icon-char(arrow-drop-down);
+}
+
+.-icon-font-arrow-drop-up:before {
+    content: icon-char(arrow-drop-up);
+}
+
+.-icon-font-arrow-left:before {
+    content: icon-char(arrow-left);
+}
+
+.-icon-font-arrow-right:before {
+    content: icon-char(arrow-right);
+}
+
+.-icon-font-arrow-small-down:before {
+    content: icon-char(arrow-small-down);
+}
+
+.-icon-font-arrow-small-up:before {
+    content: icon-char(arrow-small-up);
+}
+
+.-icon-font-browser_services:before {
+    content: icon-char(browser_services);
+}
+
+.-icon-font-cancel:before {
+    content: icon-char(cancel);
+}
+
+.-icon-font-cart:before {
+    content: icon-char(cart);
+}
+
+.-icon-font-check:before {
+    content: icon-char(check);
+}
+
+.-icon-font-check_box:before {
+    content: icon-char(check_box);
+}
+
+.-icon-font-close:before {
+    content: icon-char(close);
+}
+
+.-icon-font-cogwheel:before {
+    content: icon-char(cogwheel);
+}
+
+.-icon-font-colorize:before {
+    content: icon-char(colorize);
+}
+
+.-icon-font-domains:before {
+    content: icon-char(domains);
+}
+
+.-icon-font-edit:before {
+    content: icon-char(edit);
+}
+
+.-icon-font-grain:before {
+    content: icon-char(grain);
+}
+
+.-icon-font-head:before {
+    content: icon-char(head);
+}
+
+.-icon-font-heart:before {
+    content: icon-char(heart);
+}
+
+.-icon-font-help:before {
+    content: icon-char(help);
+}
+
+.-icon-font-image:before {
+    content: icon-char(image);
+}
+
+.-icon-font-info-outline:before {
+    content: icon-char(info-outline);
+}
+
+.-icon-font-info:before {
+    content: icon-char(info);
+}
+
+.-icon-font-layout:before {
+    content: icon-char(layout);
+}
+
+.-icon-font-lock:before {
+    content: icon-char(lock);
+}
+
+.-icon-font-mail:before {
+    content: icon-char(mail);
+}
+
+.-icon-font-menu:before {
+    content: icon-char(menu);
+}
+
+.-icon-font-minus:before {
+    content: icon-char(minus);
+}
+
+.-icon-font-monitor:before {
+    content: icon-char(monitor);
+}
+
+.-icon-font-plus:before {
+    content: icon-char(plus);
+}
+
+.-icon-font-power-plug:before {
+    content: icon-char(power-plug);
+}
+
+.-icon-font-print:before {
+    content: icon-char(print);
+}
+
+.-icon-font-pro:before {
+    content: icon-char(pro);
+}
+
+.-icon-font-redeem:before {
+    content: icon-char(redeem);
+}
+
+.-icon-font-reload:before {
+    content: icon-char(reload);
+}
+
+.-icon-font-search:before {
+    content: icon-char(search);
+}
+
+.-icon-font-settings:before {
+    content: icon-char(settings);
+}
+
+.-icon-font-shopping-cart:before {
+    content: icon-char(shopping-cart);
+}
+
+.-icon-font-stack:before {
+    content: icon-char(stack);
+}
+
+.-icon-font-store:before {
+    content: icon-char(store);
+}
+
+.-icon-font-trash:before {
+    content: icon-char(trash);
+}
+
+.-icon-font-undo:before {
+    content: icon-char(undo);
+}
+
+.-icon-font-unlock:before {
+    content: icon-char(unlock);
+}
+
+.-icon-font-visibility-off:before {
+    content: icon-char(visibility-off);
+}
+
+.-icon-font-visibility:before {
+    content: icon-char(visibility);
+}
+
+.-icon-font-wallet:before {
+    content: icon-char(wallet);
+}
+
+.-icon-font-warning:before {
+    content: icon-char(warning);
+}
+

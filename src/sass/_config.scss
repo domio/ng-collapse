@@ -1,0 +1,37 @@
+@import "foundation/scss/foundation/functions";
+
+$small-up: "only screen, print";
+
+$body-bg: #f6f6f6;
+
+$primary-color: #0086ff;
+$success-color: #00d057;
+$warning-color: #f08a24;
+$alert-color: #f04124;
+$form-label-font-size: rem-calc(15);
+$animation-method: cubic-bezier(0.250, 0.460, 0.450, 0.940) !default;
+
+// Typo
+$body-font-color: #555;
+$font-family-sans-serif: Roboto, Arial, sans-serif;
+$font-weight-normal: 300;
+$font-weight-bold: 400;
+$base-font-size: 15px;
+$rem-base: 15px;
+
+$paddings: (
+        sm: rem-calc(5),
+        md: rem-calc(10),
+        lg: rem-calc(15),
+        lgx: rem-calc(20),
+        lgxx: rem-calc(30),
+);
+
+$margins: (
+        sm: rem-calc(10),
+        md: rem-calc(15),
+        lg: rem-calc(25),
+        lgx: rem-calc(30),
+        lgxx: rem-calc(40),
+        lgxxx: rem-calc(50)
+);
