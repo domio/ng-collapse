@@ -1,5 +1,5 @@
-(function (angular, Velocity) {
-    var velocityFn = ($) ? $.Velocity : Velocity;
+(function (angular) {
+    var velocityFn = (window.$) ? window.$.Velocity : window.Velocity;
     angular.module('angular.collapse').directive('animateCollapse', function () {
         return {
             link: function (scope, element, attrs) {
@@ -65,4 +65,4 @@
             }
         };
     });
-}(window.angular, window.Velocity));
+}(window.angular));
