@@ -8,17 +8,17 @@
                 {
                     title: 'Dashboard',
                     icon: '-icon-font-stack',
-                    url: 'http://nethouse.ru'
+                    url: 'http://google.com'
                 },
                 {
                     title: 'Settings',
                     icon: '-icon-font-store',
                     items: [{
                         title: 'Common',
-                        url: 'http://nethouse.ru'
+                        url: 'http://google.com'
                     }, {
                         title: 'Orders',
-                        url: 'http://nethouse.ru'
+                        url: 'http://google.com'
                     }]
                 }]
         };
