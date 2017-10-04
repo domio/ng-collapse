@@ -30,7 +30,7 @@ gulp.task('html:plugin', function () {
     return gulp.src('src/modules/' + config.name + '/**/[^_]*.html')
         .pipe(gnunj(env))
         .pipe(htmlmin({collapseWhitespace: true}))
-        .pipe(gulp.dest('./dist/' + config.name ));
+        .pipe(gulp.dest('./dist/' + config.name));
 });
 gulp.task('html:index', function (cb) {
     var env = new nunjucks.Environment();

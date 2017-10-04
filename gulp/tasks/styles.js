@@ -15,7 +15,7 @@ gulp.task('styles:app', function () {
     return gulp.src('src/sass/*.scss')
         .pipe(sass.sync({
             includePaths: [
-                'bower_components'
+                'node_modules'
             ],
             outputStyle: 'compressed'
         }).on('error', sass.logError))

@@ -1,5 +1,5 @@
 (function (angular, Velocity) {
-    var velocityFn = ($) ? $.Velocity : Velocity;
+    var velocityFn = (window.$) ? $.Velocity : Velocity;
     angular.module('angular.collapse').directive('animateCollapse', function () {
         return {
             link: function (scope, element, attrs) {
